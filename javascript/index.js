@@ -126,3 +126,6 @@ Promise.all( [p1, p2, p3, p4, p5, p6, p7, p8] )
   document.querySelector("#brusselsSprouts").innerHTML += `<li>Brussels sprouts are ready!</li>`
   document.querySelector("#brusselsSproutsImg").removeAttribute("hidden");
 })
+.catch((err) => {
+  console.log(err)
+})
